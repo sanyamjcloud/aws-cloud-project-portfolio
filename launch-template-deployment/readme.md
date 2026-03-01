@@ -63,5 +63,4 @@ The project demonstrates practical knowledge of AWS infrastructure deployment us
 ---
 
 ## Author
-
-Your Name
+Sanyam Jain
