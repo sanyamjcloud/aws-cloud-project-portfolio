@@ -64,3 +64,13 @@ The project demonstrates practical knowledge of AWS infrastructure deployment us
 
 ## Author
 Sanyam Jain
+
+Project Structure
+
+launch-template-deployment/
+ ├── README.md
+ └── screenshots/
+      ├── template-created.png
+      ├── security-group.png
+      ├── instances-running.png
+      └── ssh-login.png
