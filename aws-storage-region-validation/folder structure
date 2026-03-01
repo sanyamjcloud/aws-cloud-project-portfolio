@@ -1,0 +1,10 @@
+aws-ebs-cross-region-volume/
+│
+├── README.md
+├── STEPS.md
+├── VERIFICATION.md
+└── screenshots/
+      ├── region-switch.png
+      ├── volume-config.png
+      ├── volume-created.png
+      └── attach-failed.png
