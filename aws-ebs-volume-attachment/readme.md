@@ -28,4 +28,4 @@ The volume was successfully attached to the EC2 instance and its state changed t
 EBS volumes must be created in the same availability zone as the instance to attach successfully.
 
 ## Author
-Your Name
+Sanyam Jain
