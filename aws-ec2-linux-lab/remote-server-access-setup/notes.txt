@@ -1,14 +1,21 @@
-Project: EC2 Linux Instance Setup
+# AWS EC2 Remote Access - Notes
 
-Steps Performed:
-1. Created security group allowing SSH, HTTP, HTTPS
-2. Launched Ubuntu EC2 instance
-3. Attached key pair for authentication
-4. Connected using MobaXterm SSH
-5. Verified system using Linux commands
+- EC2 (Elastic Compute Cloud) provides virtual Linux servers in the cloud.
 
-Result:
-Instance successfully deployed and accessed remotely.
+- A key pair (.pem file) is required for secure authentication instead of passwords.
 
-Learning Outcome:
-Understood how cloud virtual servers work and how secure remote access is configured.
+- MobaXterm is a GUI-based SSH client that simplifies remote access to Linux servers.
+
+- SSH (Secure Shell) uses port 22 for encrypted communication between client and server.
+
+- Security Groups act as firewalls and must allow inbound SSH (port 22) from the user's IP.
+
+- The default username for Ubuntu EC2 instances is "ubuntu".
+
+- Public IP address is used to connect to the instance from the internet.
+
+- File permission for the .pem key must be restricted (read-only) to avoid security issues.
+
+- Basic Linux commands help verify successful login and system status.
+
+- Always close the session properly after use to maintain security.
