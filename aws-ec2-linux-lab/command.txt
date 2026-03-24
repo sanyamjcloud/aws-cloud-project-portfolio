@@ -1,8 +1,0 @@
-# Check logged user
-whoami
-
-# Check hostname of server
-hostname
-
-# Check disk usage
-df -h
