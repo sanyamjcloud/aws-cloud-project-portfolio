@@ -1,8 +1,30 @@
-# Check logged user
+# EC2 Remote Access Commands
+
+# Navigate to directory containing key pair (Linux/WSL)
+cd ~/Downloads
+
+# Set correct permissions for key file
+chmod 400 ec2-keypairs.pem
+
+
+# Connect to EC2 Instance via SSH
+
+ssh -i ec2-keypairs.pem ubuntu@<public-ip>
+
+
+# Basic Verification Commands (after login)
+
 whoami
-
-# Check hostname of server
 hostname
+pwd
+ls -la
 
-# Check disk usage
-df -h
+
+# Update System Packages
+
+sudo apt update
+
+
+# Exit SSH Session
+
+exit
