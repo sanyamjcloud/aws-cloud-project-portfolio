@@ -1,7 +1,0 @@
-aws-ebs-volume-attachment
- ├── README.md
- └── screenshots/
-      ├── 01-create-volume.png
-      ├── 02-volume-available.png
-      ├── 03-attach-volume.png
-      └── 04-volume-inuse.png
